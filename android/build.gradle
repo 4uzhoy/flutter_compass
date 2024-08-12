@@ -24,7 +24,7 @@ apply plugin: 'com.android.library'
 android {
     compileSdkVersion 30
     if (project.android.hasProperty("namespace")) {
-        namespace = "com.hemanthraj.flutter_compass"
+        namespace = "com.hemanthraj.fluttercompass"
     }
     defaultConfig {
         minSdkVersion 20
